@@ -3,8 +3,13 @@ Title: Grabbag of random R functions
 Version: 0.0.0.900
 Authors@R: 
     person("Lillian", "McCormick", , "l.r.mccormick12@gmail.com", role = c("aut", "cre"))
-Description: Random set of functions
+Description: Random set of functions.
 License: Apache License (>= 2)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stats
